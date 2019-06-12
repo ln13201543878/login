@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-6-11 18:45:38 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="entity">
+	<class name="User">
+		<id name="uid">
+			<generator class="native" />
+		</id>
+		<property name="ucount" />
+		<property name="upwd" />
+	</class>
+</hibernate-mapping>
